@@ -1,21 +1,7 @@
+import 'package:docdoc/doc_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const DocApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Doc Doc',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const Text('Flutter Demo Home Page'),
-    );
-  }
-}
